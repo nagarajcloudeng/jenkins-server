@@ -21,6 +21,8 @@ enable_dns_hostnames = true
     Name = "jenkins-subnet"
   }
 }
+}
+
 
 # SG
 module "sg" {
