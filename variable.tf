@@ -1,4 +1,4 @@
-variable "cider_block" {
+variable "vpc_cidr" {
     description = "cider block name"
     type = string
   

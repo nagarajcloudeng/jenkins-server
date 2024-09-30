@@ -3,7 +3,7 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
   name = "my-vpc"
-  cidr = "var.cider_block"
+  cidr = var.vpc_cidr
 
   public_subnets  = ["10.0.101.0/24", "10.0.102.0/24"]
    azs            = data.aws_availability_zones.azs.names
